@@ -36,7 +36,7 @@ if($_POST["nick"]){
 <input class="form-control" type='text' name='lname' value="<?=$userdata["lname"]?>">
 </div>
 <div class="form-group col-md-6">
-<label for="file">สีที่ชอบ</label>
+<label for="file">color</label>
 <input class="form-control" type='color' name='color' value="<?=$userdata["color"]?>">
 </div>
 <div class="form-group col-md-6">
